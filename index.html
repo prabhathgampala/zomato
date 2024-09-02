@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.rk7oL6FQWBt542wSwKrNLAAAAA?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="zomato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="image-container">
+            <img src="headerimage.png">
+        </div>
+        <div class="header-body-section">
+            <nav class="nav">
+                <div class="container container-nav">
+                    <div class="logocontainer">
+                        <i class="fa-solid fa-mobile-button"></i>
+                        <p>Get the App</p>
+                    </div>
+                    <ul>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Add Restaurant</a></li>
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">Sign up</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-body-content">
+                <div class="container container-header-body">
+                    <img class="zomato-logo"  src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" >
+                    <p class="header-body-section-discover">Discover the best food & drinks in Hyderabad</p>
+                    <div class="search-container">
+                        <div class="detectionlocation">
+                            <i class="fa-solid fa-location-dot location-map"></i>
+                            <input type="text" placeholder="Hyderabad">
+                            <i class="fa-solid fa-caret-down caret-up"></i>
+                        </div>
+                        <div class="line">|</div>
+                        <div class="search-item">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section-1">
+        <div class="container container-features">
+            <div class="features">
+                <div class="feature-image">
+                    <img src="orderonline.png">
+                </div>
+                <h3>Order Online</h3>
+                <p>Stay home and order to your doorstep</p>
+            </div>
+            <div class="features">
+                <div class="feature-image">
+                    <img src="dining.png">
+                </div>
+                <h3>Dining</h3>
+                <p>View the City's favourite dining venues</p>
+            </div>
+            <div class="features">
+                <div class="feature-image">
+                    <img src="nightlif.png">
+                </div>
+                <h3>Nightlife and Clubs</h3>
+                <p>Explore the city's top nightlife outlets</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-2">
+        <div class="section-2-top container">
+            <div class="section-2-left">
+                <h1>Collections</h1>
+                <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Hyderabad, based on trends</p>
+            </div>
+            <div class="section-2-right">
+                <p>All Collections in Hyderabad <i class="fa-solid fa-caret-right"></i></p>
+            </div>
+        </div>
+        <div class="section-2-body container">
+            <div class="section-2-item container">
+                <img src="newplaces.png" >
+                <div class="section-2-image-description">
+                    <p>Newly Opened Places</p>
+                    <p>12 Places <i class="fa-solid fa-caret-right"></i></p>
+                </div>
+            </div>
+            <div class="section-2-item container">
+                <img src="livescreening.png" >
+                <div class="section-2-image-description">
+                    <p>Best of live Screenings</p>
+                    <p>29 Places <i class="fa-solid fa-caret-right"></i></p>
+                </div>
+            </div>
+            <div class="section-2-item container">
+                <img src="regionalflavors.png" >
+                <div class="section-2-image-description">
+                    <p>Regional Flavours</p>
+                    <p>23 Places <i class="fa-solid fa-caret-right"></i></p>
+                </div>
+            </div>
+            <div class="section-2-item container">
+                <img src="legendsofhyd.png" >
+                <div class="section-2-image-description">
+                    <p>The Legends of Hyderabad</p>
+                    <p>24 Places <i class="fa-solid fa-caret-right"></i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-3">
+        <div class="container container">
+            <h1>Popular localities in and around <strong>Hyderabad</strong></h1>
+            <div class="localities_container">
+                
+            </div>
+        </div>
+
+    </section>
+    <section class="section-4">
+        <div class="zomato-app-images">
+            <img src="zomatoapp2.png" >
+        </div>
+        <div class="zomato-app-details">
+            <h1>Get the Zomato app</h1>
+            <p>We will send you a link, open it on your phone to download the app</p>
+        <form action="">
+            <div class="zomato-app-radio-btn">
+                <input type="radio" name="select-radio" value="email" onclick="func('EMAIL')"/>
+                <label for="email">Email</label>
+                <input type="radio" name="select-radio" value="phone" onclick="func('PHONE NUMBER')"/>
+                <label for="phone">Phone</label>
+            </div>
+            <div class="zomato-app-input">
+                <div class="input-container-zomato-app">
+                    <!--<select>
+                        <option value="+91">+91</option>
+                        <option value="+60">+60</option>
+                        <option value="+63">+63</option>
+                        <option value="+1">+1</option>
+                    </select>-->
+                    <input type="text" name="field" placeholder="" id="inp"/>
+                    <script>
+                        function func(str){
+                            document.getElementById('inp').placeholder=str;
+                        }
+                    </script>
+                </div>
+                <button class="zomato-app-btn">Share App Link</button>
+            </div>
+        </form>
+        <p>Download app from</p>
+        <div class="download-app">
+            <a href="#">
+                <img src="googleplay.png">
+            </a>
+            <a href="#">
+                <img src="appstore.png">
+            </a>
+        </div>
+    </div>
+    </section>
+    <section class="section-5">
+        <div class="container">
+            <h1>Explore options near me</h1>
+            <div class="section-5_collapse" id="popularcitylistid">
+                <div class="section-5_collapse_heading">
+                    <h2>Popular cuisines near me</h2>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <p id="popularcityid">
+                </p>
+            </div>
+            <div class="section-5_collapse" id="popularrestaurantlistid">
+                <div class="section-5_collapse_heading">
+                    <h2>Popular restaurant types near me</h2>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <p id="popularrestaurantid">
+                </p>
+            </div>
+            <div class="section-5_collapse" id="popularchainslistid">
+                <div class="section-5_collapse_heading">
+                    <h2>Top Restaurant Chains</h2>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <p id="popularchainsid">
+                </p>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <script src="index.js" type="module"></script>
+    
+</body>
+</html>
